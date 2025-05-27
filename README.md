@@ -2,7 +2,7 @@
 
 A powerful tool for predicting and analyzing noise margins in electronic circuits using machine learning. This application helps engineers and hobbyists quickly assess the noise characteristics of their circuit designs without extensive simulation.
 
-## 🚀 Features
+## Features
 
 - **Noise Level Prediction**: Predicts noise levels (Low/Medium/High) based on circuit parameters
 - **Interactive Interface**: User-friendly web interface built with Streamlit
@@ -15,7 +15,7 @@ A powerful tool for predicting and analyzing noise margins in electronic circuit
 - **Noise Reduction Tips**: Provides actionable recommendations based on predicted noise levels
 - **Machine Learning Model**: Powered by XGBoost for accurate noise margin classification
 
-## 📊 Model Performance
+## Model Performance
 
 The XGBoost model has been trained on a synthetic dataset with the following metrics:
 - Accuracy: ~95%
@@ -23,7 +23,7 @@ The XGBoost model has been trained on a synthetic dataset with the following met
 - Recall: 93-96% (varies by class)
 - F1-Score: 93-96% (varies by class)
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository**
    ```bash
@@ -49,7 +49,7 @@ The XGBoost model has been trained on a synthetic dataset with the following met
    pipenv shell
    ```
 
-## 🚀 Usage
+## Usage
 
 1. **Run the Streamlit application**
    ```bash
@@ -71,7 +71,7 @@ The XGBoost model has been trained on a synthetic dataset with the following met
    - Click the "Check Noise" button to get the predicted noise level
    - View detailed noise reduction recommendations
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Noise_Margin_Detector/
@@ -85,7 +85,7 @@ Noise_Margin_Detector/
 └── requirements.txt       # Python dependencies
 ```
 
-## 🤖 Model Details
+## Model Details
 
 The noise margin prediction is powered by an XGBoost classifier trained on synthetic data. The model takes the following inputs:
 
@@ -99,7 +99,7 @@ The model outputs one of three noise level classifications:
 - **Medium**: Moderate noise, consider optimizations
 - **High**: Significant noise, design improvements recommended
 
-## 📝 Noise Reduction Tips
+## Noise Reduction Tips
 
 Based on the predicted noise level, the application provides specific recommendations:
 
@@ -115,7 +115,7 @@ Based on the predicted noise level, the application provides specific recommenda
 - Implement anti-aliasing filters
 - Consider application-specific noise control measures
 
-## 📈 Future Improvements
+## Future Improvements
 
 - [ ] Add support for more circuit components
 - [ ] Implement real-time noise simulation
@@ -124,7 +124,7 @@ Based on the predicted noise level, the application provides specific recommenda
 - [ ] Add more detailed component models
 - [ ] Implement user authentication for saving designs
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -134,6 +134,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📧 Contact
+## Contact
 
 Author: [SplinterSword](https://github.com/SplinterSword)
