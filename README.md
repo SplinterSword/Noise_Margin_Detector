@@ -115,15 +115,6 @@ Based on the predicted noise level, the application provides specific recommenda
 - Implement anti-aliasing filters
 - Consider application-specific noise control measures
 
-## Future Improvements
-
-- [ ] Add support for more circuit components
-- [ ] Implement real-time noise simulation
-- [ ] Add visualization of noise margins
-- [ ] Support for importing SPICE netlists
-- [ ] Add more detailed component models
-- [ ] Implement user authentication for saving designs
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
