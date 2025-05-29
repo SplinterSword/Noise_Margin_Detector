@@ -23,6 +23,9 @@ The XGBoost model has been trained on a synthetic dataset with the following met
 - Recall: 93-96% (varies by class)
 - F1-Score: 93-96% (varies by class)
 
+## Live Link
+link = https://noisemargindetectorsplintersword.streamlit.app/
+
 ## Installation
 
 1. **Clone the repository**
